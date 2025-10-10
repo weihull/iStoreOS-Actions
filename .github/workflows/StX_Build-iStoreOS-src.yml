@@ -51,13 +51,13 @@ on:
           - orangepi-5-plus
           - orangepi-5b
           - panther-x2
+          - photonicat
           - r66s
           - r68s
           - renegade-rk3328
           - rk3318-box
           - rock5b
           - rock5c
-          - rp-rk3568
           - ruisen-box
           - s905
           - s905-beelink-mini
