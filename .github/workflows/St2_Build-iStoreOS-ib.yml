@@ -194,6 +194,9 @@ on:
           - static
           - dhcp
 
+env:
+  VERSION: 24.10.3
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -236,7 +239,7 @@ jobs:
           for FILE in ${{ env.PACKAGED_OUTPUTPATH }}/*.img.gz; do
             echo "Processing file: $FILE"
             FILENAME=$(basename "$FILE")
-            NEW_FILENAME=$(echo "$FILENAME" | sed 's/openwrt/istoreos_24.10.3/g')
+            NEW_FILENAME=$(echo "$FILENAME" | sed 's/openwrt/istoreos_$VERSION/g')
             if [ "$FILENAME" != "$NEW_FILENAME" ]; then
               mv "$FILE" "${{ env.PACKAGED_OUTPUTPATH }}/$NEW_FILENAME"
               echo "Renamed $FILENAME to $NEW_FILENAME"
