@@ -117,9 +117,9 @@ jobs:
     - name: 🚀 上传到 Release
       uses: softprops/action-gh-release@v2.2.1
       with:
-        tag_name: iStoreOS-$VERSION-RELEASE-${{ inputs.network_settings }}
+        tag_name: iStoreOS-${{ env.VERSION }}-RELEASE-${{ inputs.network_settings }}
         body: |
-          📌 版本： iStoreOS-$VERSION-RELEASE（imagebuilder构建，稳定版）
+          📌 版本： iStoreOS-${{ env.VERSION }}-RELEASE（imagebuilder构建，稳定版）
           
           📂 来源： https://fw.koolcenter.com/iStoreOS/ib/armsr/
           
