@@ -26,7 +26,7 @@ uci delete ttyd.@ttyd[0].interface
 
 # 设置编译作者信息
 FILE_PATH="/etc/openwrt_release"
-NEW_DESCRIPTION="iStoreOS 24.10.2"
+NEW_DESCRIPTION="iStoreOS 24.10.3"
 sed -i "s/DISTRIB_DESCRIPTION='[^']*'/DISTRIB_DESCRIPTION='$NEW_DESCRIPTION'/" "$FILE_PATH"
 
 # 修改banner并删除/etc/banner1文件夹
