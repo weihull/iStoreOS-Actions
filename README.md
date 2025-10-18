@@ -12,9 +12,9 @@
 # 😅Built-in package plan
 | 插件                     | 状态 | 插件                      | 状态  |
 |:------------------------:|:----:|:------------------------:|:----:|
-| ramfree释放内存          | ✅   | openlist2                | ✅   |
-| FileBrowser文件浏览      | ✅   | adguardhome              | ✅   |
-| lucky                    | ✅   | luci-app-amlogic        | ✅   |
+| ramfree释放内存          | ✅   | openlist2                | ⏳   |
+| FileBrowser文件浏览      | ✅   | adguardhome              | ⏳   |
+| lucky                    | ⏳   | luci-app-amlogic        | ✅   |
 | 其他                     | ⏳   |                         |       |
 
 ✅ 支持 ； ⏳ 计划中 ； ❌ 不支持
