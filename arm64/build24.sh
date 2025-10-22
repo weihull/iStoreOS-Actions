@@ -463,6 +463,7 @@ PACKAGES="$PACKAGES kmod-qrtr"                    # QRTR（Qualcomm Remote Test 
 PACKAGES="$PACKAGES kmod-qrtr-mhi"                # MHI上的QRTR驱动模块
 PACKAGES="$PACKAGES kmod-qrtr-tun"                # QRTR隧道驱动模块
 PACKAGES="$PACKAGES kmod-r6040"                   # Ralink R6040无线驱动模块
+PACKAGES="$PACKAGES kmod-r8101"                   # 瑞昱 RTL810x/8139 Family Fast Ethernet NIC
 PACKAGES="$PACKAGES kmod-r8125"                   # Realtek R8125网卡驱动模块
 PACKAGES="$PACKAGES kmod-r8126"                   # Realtek R8126网卡驱动模块
 PACKAGES="$PACKAGES kmod-r8127"                   # Realtek R8127网卡驱动模块
