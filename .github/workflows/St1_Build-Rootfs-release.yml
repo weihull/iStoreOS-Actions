@@ -13,11 +13,11 @@ on:
       ipaddr:
         description: '请输入管理IP（静态地址时必填）'
         required: true
-        default: '192.168.5.88'
+        default: '192.168.10.1'
       gateway:
         description: '请输入默认网关（静态地址时必填）'
         required: true
-        default: '192.168.5.1'
+        default: '192.168.10.1'
       include_docker:
         description: "是否集成Docker插件"
         required: true
